@@ -3,6 +3,7 @@
 <p>Este repositório contém um dos desafios da trilha Fullstack realizados durante o <a href="https://portal.formacaoti.senaicimatec.com.br/">programa de formação em TI do SENAI CIMATEC.</a><p>
 <br>
 </div>
+<img src="https://app.travis-ci.com/CamilaTT/desafio-DevOps-API.svg?branch=main">
 <h2>Visão geral</h2>
 <div align="justify"><p>O objetivo desse desafio foi aplicar os conhecimentos adquiridos sobre a cultura DevOps para criar uma pipeline de integração contínua (CI) e deploy contínuo (CD) de uma API desenvolvida com Node.js.</p></div>
 
