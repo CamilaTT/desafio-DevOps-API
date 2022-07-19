@@ -1,21 +1,21 @@
 language: node_js
 node_js:
-  - 16
+- 16
 addons:
   apt:
   sources:
-    - travis-ci/sqlite3
+  - travis-ci/sqlite3
   packages:
-    - sqlite3
+  - sqlite3
 sudo: false
 before_script:
-  - npm install -g mocha
+- npm install -g mocha
 script:
-  - npm test
+- npm test
 deploy:
   provider: heroku
   skip_cleanup: true
   api_key:
-    secure: $HEROKU_API_KEY
-  app: ford-api-seunome
+    secure: FgAIdMoq01+zTohT6U0E4lMArqo/kWbZQV93NlJBbBp/iEnx3Ieg3vdzgY5LFXZhQXVtkb5hwuda7ZhmZSmxNu1DwVDuepQsB1LRyMaSLpbR6fWu+UORBsoopJdiu7h/XLsXd92SIeZDYrtWSBktgWFC+eA1eFPW6FcZuIcBU3ece4Ccql7UKhM2a2KxT/s/VEbZ8q234yo+UwL1HFKoJaz3nADtZhxQ3BxhOsQSnHpcU1vK0mRWdYGKoRQAut+DBfVmbchQiGbWPn8+5Osn+Y2viaLGIXcH6CGJ9j97Do+PL/LDiMTHTG1hSP3qh54219z1wW98ZE4klgmhhgPXtW33nWA08RQofyNwRHi5LjabNQsEVJI+mag4X3EO3AYcgpcTOZPc4sb0rK7YrLSRRO0vwgGagyi813NkSgjD0XApMy/PXcKvyDXvVeSNZHrlW5koHFbW6XHb6eVXwd20vHnlDZZxQM3Sexfgs5OIX46EiiH5s5f77BIXmTiLSgS06a9IHOuDxmDWi77VJYUvAi7KkJUupOe42vdcWKo5Yv3nHaR3qqOtkGkJDzSud6xLlzh0hOw2n8eL+VQtX9NG0orO+lJ8LsFQD34ab3A33ZcsIMwUnP/ZtNkFs3TfAjFfaDwbtj7mUepn1I7z3l9XAFR1raIaqfUDegwZd+GQUVg=
+  app: vehicledata-api
   edge: true
