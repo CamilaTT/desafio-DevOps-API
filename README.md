@@ -11,7 +11,6 @@
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=GIT&message=2.35.1.windows.2&color=FF0000&style=for-the-badge">
 <img src="https://img.shields.io/static/v1?label=Node.js&message=16.15.1&color=32CD32&style=for-the-badge">
-<img src="https://img.shields.io/static/v1?label=Ruby&message=3.1.2p20&color=FF0000&style=for-the-badge">
 <img src="https://img.shields.io/static/v1?label=Travis-CI&message=1.11.1&color=F0E68C&style=for-the-badge">
 <img src="https://img.shields.io/static/v1?label=Heroku&message=7.53.0&color=8A2BE2&style=for-the-badge">
 </div>
